@@ -1,0 +1,58 @@
+.navbar {
+  background-color: rgb(30, 34, 34);
+  height: 60px;
+  display: flex;
+}
+
+.ul {
+  display: flex;
+  text-decoration: none;
+}
+
+.ul a {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  display: flex;
+  color: aliceblue;
+  justify-content: center;
+  text-decoration: none;
+}
+
+
+.ul a:hover{    
+    color: burlywood;
+   
+}
+
+
+
+
+
+.search{
+height: 30px;
+margin-top: 15px;
+width: 300px;
+position: absolute;
+right: 150px;
+border-radius: 20px;
+padding-left: 20px;
+font-size: 18px;
+border: 2px solid blue;
+
+}
+
+
+
+
+.btn-search {
+    height: 35px; 
+    margin-top: 15px;
+    width: 100px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    background-color: green;
+    position: absolute;
+    right: 30px;
+    font-size: 18px;
+}
