@@ -1,0 +1,146 @@
+.navbar {
+  background-color: rgb(26, 30, 30);
+  height: 60px;
+  display: flex;
+ 
+}
+
+.ul {
+  
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+ 
+}
+
+
+.ul a {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+ display: flex;
+  color: aliceblue;
+  justify-content: center;
+  text-decoration: none;
+}
+
+
+.ul a:hover{    
+    color: burlywood;
+   
+}
+
+
+
+
+
+.search{
+height: 30px;
+margin-top: 15px;
+width: 300px;
+position: absolute;
+right: 150px;
+border-radius: 20px;
+padding-left: 20px;
+font-size: 18px;
+border: 2px solid blue;
+
+}
+
+.btn-search {
+    height: 35px; 
+    margin-top: 15px;
+    width: 100px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    background-color: green;
+    position: absolute;
+    right: 30px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+.main-section{
+height: 70vh;
+
+}
+
+h1 {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  font-size: 72px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  color: rgb(218, 121, 9);
+  text-align: center;
+}
+
+
+h2 {
+  position: absolute;
+  top: 310px;
+  left: 437px;
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  color: rgb(218, 72, 9);
+  text-align: center;
+}
+
+h5 {
+  position: absolute;
+  right: 10px;
+  bottom: 50px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  color: rgb(218, 127, 9);
+ 
+}
+
+
+
+
+
+
+
+.footer{
+  background-color: rgb(26, 30, 30);
+  height: 100px;
+
+}
+
+
+.footer ul {
+  list-style-type: none;
+  width: 15%;
+  margin:  auto;
+ 
+
+
+}
+
+.footer a {
+ position: relative;
+ top: 5px;
+ left: 18px;
+  text-decoration: none;
+  color: aliceblue;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.footer span {
+  position: relative;
+  top: 10px;
+  color:aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
