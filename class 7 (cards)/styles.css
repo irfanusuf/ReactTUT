@@ -1,0 +1,37 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+
+.cards-main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 90%;
+}
+.cards {
+  width: 300px;
+  height: 300px;
+  background-color: antiquewhite;
+  border: 1px solid wheat;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: all 1s;
+}
+
+.cards:hover {
+  box-shadow: 2px 0px 10px rgb(131, 121, 121);
+  transform: scale(1.08);
+}
+
+.cards-text a{
+  text-decoration: none;
+  padding: 0px 5px;
+  color: rgb(5, 14, 144);
+  cursor: pointer;
+}
+

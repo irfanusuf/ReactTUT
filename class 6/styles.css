@@ -104,3 +104,14 @@ nav a:hover {
   background-color: rgb(234, 255, 0);
   width: 20%;
 }
+
+
+
+
+footer{
+  background-color: wheat;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
