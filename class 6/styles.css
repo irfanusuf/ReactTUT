@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: wheat;
+  height: 80px;
+  display: flex;
+}
+
+header ul {
+  list-style-type: none;
+  display: inline-block;
+  width: 50%;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+header span {
+  color: red;
+  font-size: 36px;
+}
+
+.search {
+  width: 50%;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: end;
+  padding: 25px;
+}
+
+.search input {
+  border-radius: 5px;
+  width: 60%;
+  font-size: 18px;
+  padding: 2px 10px;
+  height: 24px;
+  margin-right: 2px;
+}
+
+.search button {
+  width: 50px;
+  height: 30px;
+  background-color: rgba(255, 228, 196, 0);
+  border-radius: 5px;
+  padding: 7px;
+}
+
+.search button:hover {
+  background-color: rgb(180, 105, 14);
+}
+
+nav {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  height: 50px;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 20px;
+  padding: auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: 18px;
+}
+
+nav a:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+
+.central {
+  display: flex;
+}
+.left-section {
+  background-color: bisque;
+  width: 300px;
+  height: 600px;
+}
+
+.main-section {
+  background-color: rgb(255, 153, 0) (0, 255, 255, 0.123);
+  width: 50%;
+}
+
+.right-section {
+  background-color: rgb(234, 255, 0);
+  width: 20%;
+}
