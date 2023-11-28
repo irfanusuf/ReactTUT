@@ -9,6 +9,8 @@ body {
     flex-wrap: wrap;
     margin: auto;
     width: 90%;
+   
+ 
 }
 .cards {
   width: 300px;
@@ -20,7 +22,7 @@ body {
   margin-top: 20px;
   overflow: hidden;
   text-overflow: ellipsis;
-  transition: all 1s;
+  transition: all 1s ease-out  ;
 }
 
 .cards:hover {
