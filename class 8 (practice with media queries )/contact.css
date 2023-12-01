@@ -1,86 +1,78 @@
-.contact-form {
+.contact {
+        margin: 20px auto;
+        height: 65vh ;
+        
 
-  position: absolute;
-  top: 200px;
-  left: 550px;
+    }
+
+    .contact h1 {
+      color: antiquewhite;
+      text-align: center;
+    }
+
+   
+
+
+.contact-form {
+ display: flex;
+ justify-content: center;
   border: 2px solid wheat;
-  padding: 20px;
-  border-radius: 5px ;
+  padding: 30px 50px;
+  border-radius: 5px;
   box-shadow: 3px 3px 10px black;
   transition: all ease 0.5s;
-  width: 400px;
-  height: 300px;
-    
-}
-
-
-
-.contact-form:hover{
-    box-shadow: 3px 3px 10px rgb(160, 49, 49);
-    
-}
-
-
-.contact-form input:hover{
-    box-shadow: 3px 3px 10px rgb(160, 49, 49);
-    
-}
-
-
-.contact-form textarea:hover{
-    box-shadow: 3px 3px 10px rgb(160, 49, 49);
-    
-}
-
-
-.contact-form label {   
-
-    font-size: 18px;
-
-
-}
-
-.contact-form input{
-    margin-left: 50px;
-    border: 2px solid wheat;
-    box-shadow: 3px 3px 10px black;
-    width: 250px;
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    padding: 2px 10px;
-    border-radius: 5px;
-    background-color: black;
-    opacity: 0.1;
+    height: 300px;
  
-   
-
 }
 
+.contact-form:hover {
+  box-shadow: 3px 3px 10px rgb(160, 49, 49);
+}
+
+.contact-form input:hover {
+  box-shadow: 3px 3px 10px rgb(160, 49, 49);
+}
+
+.contact-form textarea:hover {
+  box-shadow: 3px 3px 10px rgb(160, 49, 49);
+}
+
+.contact-form label {
+  font-size: 18px;
+  color: antiquewhite;
+}
+
+.contact-form input {
+  background-color: rgba(240, 248, 255, 0.1);
+  color: antiquewhite;
+  margin-left: 50px;
+  border: 2px solid wheat;
+  box-shadow: 3px 3px 10px black;
+  width: 300px;
+  font-size: 16px;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
 
 .contact-form textarea {
-
-
-    width: 265px;
-    height: 200px;
-    font-size: 16px;
-    position: absolute;
-    margin-left: 10px ;
-    margin-top: 10px;
-    opacity: 0.2;
-   
-    border: 2px solid wheat;
-    box-shadow: 3px 3px 10px black;
+  background-color: rgba(240, 248, 255, 0.1);
+  color: antiquewhite;
+  width: 315px;
+  height: 200px;
+  font-size: 16px;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 2px solid wheat;
+  box-shadow: 3px 3px 10px black;
+  border-radius: 5px ;
 }
 
 .contact-form button {
-
-
-    background-color: wheat ;
-    box-shadow: 3px 3px 10px black;
-    font-size: large;
-    position: relative;
-    top: 220px;
-    left: 250px;
-
-
+  background-color: wheat;
+  box-shadow: 3px 3px 10px black;
+  font-size: large;
+  position: relative;
+  top: 220px;
+  left: 250px;
 }
