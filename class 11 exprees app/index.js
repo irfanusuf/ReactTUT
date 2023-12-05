@@ -7,24 +7,6 @@ app.get('/', (req, res) => {
 })
 
 
-app.get('/users', (req, res) => {
-    res.send('no data base connected no users found. ')
-  })
-
-
-  app.post('/register', (req, res) => {
-    res.send('we have no databases yet ......we cant register you ')
-  })
-
-
-  app.post('/login', (req, res) => {
-    res.send('we have no databases yet ......we cant register you ')
-  })
-
-
-  app.delete
-
-
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })

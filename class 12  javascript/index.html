@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript intro</title>
+
+    <style>
+        .targeting-css {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h2>My First JavaScript</h2>
+
+
+
+
+    <p class="targeting-css" id="demo"> </p>
+    <p class="targeting-css" id="demo2"> </p>
+
+
+
+
+    <script>
+
+        function myfunction() {
+            let carName = "swift";
+            return carName;
+        }
+
+        let carName = "xuv500";
+
+
+        document.getElementById("demo").innerHTML = myfunction() + " " + carName;
+
+
+        const cars = ["Saab", "Volvo", "BMW" , "Saab", "Volvo", "BMW" , "Saab", "Volvo", "BMW" , "Saab", "Volvo", "BMW" ];
+        cars[3] = "opel";
+        cars[4] = "ferrari";   
+
+
+        
+        document.getElementById("demo2").innerHTML = cars.join("/");
+
+
+
+
+    </script>
+</body>
+
+</html>
