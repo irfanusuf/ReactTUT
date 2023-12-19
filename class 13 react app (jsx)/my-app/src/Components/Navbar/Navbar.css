@@ -1,9 +1,15 @@
-nav {
+.nav-dark{
   display: flex;
   background-color: rgb(4, 4, 4);
 }
 
-nav ul {
+
+.nav-light{
+  display: flex;
+  background-color: rgb(192,196,192 );
+}
+
+nav  ul {
   display: flex;
 }
 
@@ -12,12 +18,20 @@ nav li {
   margin-left: 30px;
 }
 
-nav a {
+.nav-dark a {
   text-decoration: none;
   color: rgb(192,196,192 );
   font-size: 22px;
   transition: all 0.1s ease-in;
 }
+
+.nav-light a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  transition: all 0.1s ease-in;
+}
+
 
 nav a:hover {
   text-shadow: 4px 4px 10px rgb(74,117,41);
@@ -45,9 +59,10 @@ nav button {
   color: rgb(192,196,192 );
   margin-left: 5px;
   cursor: pointer;
+
 }
 
-nav button:hover {
+.nav button:hover {
   box-shadow: 2px 2px 10px rgb(74,117,41);
 }
 
@@ -55,8 +70,16 @@ nav button:hover {
   width: 50%;
 }
 
+
+
+.center-nav{
+
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
 .right-nav {
-  width: 50%;
+  width: 30%;
   display: flex;
   justify-content: flex-end ;
   margin-right: 10px;

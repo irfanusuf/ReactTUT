@@ -1,0 +1,32 @@
+.Footer-dark {
+
+   display: flex;
+    background-color: rgb(4, 4, 4);
+    color: rgb(192,196,192 );
+    height: 100px;
+    font-size: 18px;
+}
+
+
+.Footer-light{
+    display: flex;
+    background-color: rgb(192,196,192 );
+    color: rgb(4, 4, 4);
+    height: 100px;
+    font-size: 18px;
+
+}
+
+.central-footer {
+
+text-align: center;
+margin: 0px auto;
+width: auto;
+padding-top: 20px;
+   
+}
+
+.central-footer p {
+    margin-top: 0  ;
+    margin-bottom: 0;
+}

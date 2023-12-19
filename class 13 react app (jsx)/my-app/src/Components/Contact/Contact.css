@@ -1,0 +1,25 @@
+.Contact {
+    display: flex;
+    width: 75%;
+
+}
+
+
+
+.Contact-form {
+    width: 500px;
+    height: 400px;
+    background-color: rgba(250, 235, 215, 0.185);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 100px;
+    box-shadow: 3px 3px 20px green;
+}
+
+
+.Contact-form p {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bolder;
+}

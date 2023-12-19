@@ -1,0 +1,29 @@
+.central-section-light{
+
+
+    display: flex;
+background-image: url(./assets/game\ \(1\).jpg);
+background-size: cover;
+
+
+}
+
+
+.central-section-dark{
+
+
+    display: flex;
+background-image: url(./assets/game\ \(1\).jpg);
+background-size: cover;
+opacity: 0.5;
+
+
+}
+
+
+.central-main
+{
+
+background-color: rgb(31, 28, 28);
+
+}

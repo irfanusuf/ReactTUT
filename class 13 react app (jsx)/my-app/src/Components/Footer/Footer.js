@@ -1,13 +1,18 @@
-import React from 'react'
+import React from 'react';
+import './Footer.css';
 
-const Footer = () => {
+const Footer = (props) => {
   return (
-    <div>
+    <div className={props.divName}>
+
+      <div className='central-footer'>
+
+        <p> Tech Blog </p>
+        <p>  Copyright All Rights Reserved 2023  </p>
+
+      </div>
 
 
-
-
-        <h3>   this is my  footer </h3>
     </div>
   )
 }

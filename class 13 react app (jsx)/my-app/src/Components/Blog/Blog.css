@@ -1,0 +1,8 @@
+.Blog {
+
+display: flex;
+width: 75%;
+    height: 80vh;
+   justify-content: center;
+    
+}

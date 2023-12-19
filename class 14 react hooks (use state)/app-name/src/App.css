@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+
+
+
+
+.button-blue {
+
+    background-color: blue;
+    color: antiquewhite;
+    padding: 2px 10px;
+    font-size: larger;
+    cursor: pointer;
+} 
+
+
+.button-green { 
+
+  background-color: green;
+  color: black ;
+  padding: 2px 10px;
+  font-size: larger;
+  cursor: pointer;
+
+}
+
+
+

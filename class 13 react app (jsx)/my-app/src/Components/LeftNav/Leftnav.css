@@ -1,0 +1,18 @@
+.leftnav-light{
+
+display: flex;
+width: 25%;
+height : 80vh;
+
+
+}
+
+
+.leftnav-dark{
+
+    display: flex;
+    width: 25%;
+    height : 80vh;
+  
+    
+    }
